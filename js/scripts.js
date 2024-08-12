@@ -41,6 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
             event.preventDefault();
             dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
             servicesToggle.parentElement.classList.toggle('dropdown-open');
+            window.location.href = 'services.html'; // Redirection vers la page des services
         });
     }
 

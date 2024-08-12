@@ -85,3 +85,38 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+.slideshow {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+
+.slideshow-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    animation: slide 10s infinite;
+}
+
+.slide {
+    min-height: 100%;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateY(0);
+    }
+
+    33% {
+        transform: translateY(-100%);
+    }
+
+    66% {
+        transform: translateY(-200%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

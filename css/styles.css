@@ -12,6 +12,21 @@ header {
     text-align: center;
 }
 
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 1rem;
+}
+
+.company-name {
+    margin: 0;
+}
+
 nav {
     position: relative;
     z-index: 1000; /* Assurez-vous que le menu est au-dessus des autres éléments */

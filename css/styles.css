@@ -14,6 +14,7 @@ header {
 
 nav {
     position: relative;
+    z-index: 1000; /* Assurez-vous que le menu est au-dessus des autres éléments */
 }
 
 .menu-toggle {

@@ -51,4 +51,12 @@ document.addEventListener('DOMContentLoaded', function () {
             item.classList.add('selected');
         });
     });
+
+    // Fonctionnalité de menu hamburger pour mobile
+    const menuToggle = document.getElementById('menu-toggle');
+    const navMenu = document.getElementById('nav-menu');
+
+    menuToggle.addEventListener('click', function () {
+        navMenu.style.display = navMenu.style.display === 'flex' ? 'none' : 'flex';
+    });
 });

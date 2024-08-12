@@ -362,4 +362,3 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
-*.FORCE_JAVASCRIPT_ACTIONS_TO_NODE20=true
